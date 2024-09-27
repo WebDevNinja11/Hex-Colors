@@ -1,0 +1,23 @@
+div#bar{
+    height:200px;
+    bottom:0%;
+    position:absolute;
+    background-color: rgba(10, 10, 10, 0.107);
+    display: flex;
+    width:100%;
+    justify-content: center;
+    justify-items: center;
+}
+body{
+    margin:0;
+}
+button#change{
+    background: rgba(10, 10, 10, 0.107);
+    border-color: transparent;
+    height:200px;
+    width:1366px;
+    position:relative;
+    bottom:-410px;
+    display: inline-block;
+    z-index:-1;
+}
